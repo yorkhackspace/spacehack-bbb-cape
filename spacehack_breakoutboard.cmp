@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Wed 05 Mar 2014 21:48:58 GMT
+
+BeginCmp
+TimeStamp = /53179AC1;
+Reference = P1;
+ValeurCmp = HD44780 BUS;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /531796EA;
+Reference = U1;
+ValeurCmp = BEAGLEBONEBLACK;
+IdModule  = BEAGLEBONEBLACK;
+EndCmp
+
+EndListe

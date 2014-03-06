@@ -1,0 +1,68 @@
+
+(session spacehack_breakoutboard.ses
+  (base_design spacehack_breakoutboard.dsn)
+  (placement
+    (resolution um 10)
+    (component BEAGLEBONEBLACK
+      (place U1 1511300 -825500 front 0)
+    )
+    (component PIN_ARRAY_20X2
+      (place P1 1993900 -1384300 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2013-dec-23)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_889:0_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000009"
+        (wire
+          (path B.Cu 2540
+            1752600 -1397000
+            1752600 -1385567
+          )
+        )
+        (wire
+          (path B.Cu 2540
+            1746250 -1136650
+            1764033 -1154433
+            1764033 -1376993
+            1755459 -1385567
+            1752600 -1385567
+          )
+        )
+        (wire
+          (path B.Cu 2540
+            1746250 -1079500
+            1746250 -1136650
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
