@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 mar 2014"
+Date "12 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -269,4 +269,96 @@ F 3 "" H 9100 4600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9400 4600 9100 4600
+$Comp
+L CONN_20X2 P?
+U 1 1 531E14AA
+P 1400 3700
+F 0 "P?" H 1400 4750 60  0000 C CNN
+F 1 "Inputs BUS" V 1400 3700 50  0000 C CNN
+F 2 "" H 1400 3700 60  0000 C CNN
+F 3 "" H 1400 3700 60  0000 C CNN
+	1    1400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2750 1000 2250
+Wire Wire Line
+	1000 2250 2800 2250
+Wire Wire Line
+	2800 2250 2800 2800
+Wire Wire Line
+	2800 2800 3050 2800
+Wire Wire Line
+	1000 2850 850  2850
+Wire Wire Line
+	850  2850 850  1950
+Wire Wire Line
+	850  1950 2700 1950
+Wire Wire Line
+	2700 1950 2700 2900
+Wire Wire Line
+	2700 2900 3050 2900
+$Comp
+L CONN_20X2 P?
+U 1 1 5320B02B
+P 1400 6100
+F 0 "P?" H 1400 7150 60  0000 C CNN
+F 1 "Nokia Bus" V 1400 6100 50  0000 C CNN
+F 2 "" H 1400 6100 60  0000 C CNN
+F 3 "" H 1400 6100 60  0000 C CNN
+	1    1400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2950 700  2950
+Wire Wire Line
+	700  2950 700  1800
+Wire Wire Line
+	700  1800 5650 1800
+Wire Wire Line
+	5650 1800 5650 3600
+Wire Wire Line
+	5650 3600 6250 3600
+Wire Wire Line
+	1000 3050 600  3050
+Wire Wire Line
+	600  3050 600  4800
+Wire Wire Line
+	600  4800 2650 4800
+Wire Wire Line
+	2650 4800 2650 5300
+Wire Wire Line
+	2650 5300 5650 5300
+Wire Wire Line
+	5650 5300 5650 3700
+Wire Wire Line
+	5650 3700 6250 3700
+Wire Wire Line
+	1000 3150 750  3150
+Wire Wire Line
+	750  3150 750  4950
+Wire Wire Line
+	750  4950 2500 4950
+Wire Wire Line
+	2500 4950 2500 5450
+Wire Wire Line
+	2500 5450 5800 5450
+Wire Wire Line
+	5800 5450 5800 3800
+Wire Wire Line
+	5800 3800 6250 3800
+Wire Wire Line
+	1000 3250 900  3250
+Wire Wire Line
+	900  3250 900  5050
+Wire Wire Line
+	900  5050 2400 5050
+Wire Wire Line
+	2400 5050 2400 5600
+Wire Wire Line
+	2400 5600 5900 5600
+Wire Wire Line
+	5900 5600 5900 3900
+Wire Wire Line
+	5900 3900 6250 3900
 $EndSCHEMATC
